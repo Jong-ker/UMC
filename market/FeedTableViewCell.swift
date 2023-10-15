@@ -20,7 +20,7 @@ class FeedTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        imageViewPicture.layer.cornerRadius = 22.5
+        imageViewPicture.layer.cornerRadius = 5
         imageViewPicture.clipsToBounds = true
         
         
