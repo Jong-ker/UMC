@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9833C6B22AE4AA600055DA35 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9833C6B12AE4AA600055DA35 /* HomeViewController.swift */; };
+		9833C6B52AE4BC160055DA35 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9833C6B32AE4BC160055DA35 /* FeedTableViewCell.swift */; };
+		9833C6B62AE4BC160055DA35 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9833C6B42AE4BC160055DA35 /* FeedTableViewCell.xib */; };
+		9833C6B92AE4C8D30055DA35 /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9833C6B72AE4C8D30055DA35 /* StoryTableViewCell.swift */; };
+		9833C6BA2AE4C8D30055DA35 /* StoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9833C6B82AE4C8D30055DA35 /* StoryTableViewCell.xib */; };
+		9833C6BD2AE4CAD40055DA35 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9833C6BB2AE4CAD40055DA35 /* StoryCollectionViewCell.swift */; };
+		9833C6BE2AE4CAD40055DA35 /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9833C6BC2AE4CAD40055DA35 /* StoryCollectionViewCell.xib */; };
 		989D82262ACEB6000037ECDF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989D82252ACEB6000037ECDF /* RegisterViewController.swift */; };
+		98D70F542AE42928003C7736 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D70F532AE42928003C7736 /* UIView+Extension.swift */; };
+		98D70F562AE42A6D003C7736 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D70F552AE42A6D003C7736 /* UIViewController+Extension.swift */; };
+		98D70F582AE42D1F003C7736 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D70F572AE42D1F003C7736 /* Color+Extension.swift */; };
 		98EAEE0E2ACDBEE70030F1D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EAEE0D2ACDBEE70030F1D1 /* AppDelegate.swift */; };
 		98EAEE102ACDBEE70030F1D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EAEE0F2ACDBEE70030F1D1 /* SceneDelegate.swift */; };
 		98EAEE152ACDBEE70030F1D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EAEE132ACDBEE70030F1D1 /* Main.storyboard */; };
@@ -17,7 +27,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9833C6B12AE4AA600055DA35 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9833C6B32AE4BC160055DA35 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		9833C6B42AE4BC160055DA35 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		9833C6B72AE4C8D30055DA35 /* StoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		9833C6B82AE4C8D30055DA35 /* StoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryTableViewCell.xib; sourceTree = "<group>"; };
+		9833C6BB2AE4CAD40055DA35 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		9833C6BC2AE4CAD40055DA35 /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		989D82252ACEB6000037ECDF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		98D70F532AE42928003C7736 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		98D70F552AE42A6D003C7736 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		98D70F572AE42D1F003C7736 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		98EAEE0A2ACDBEE70030F1D1 /* Catstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EAEE0D2ACDBEE70030F1D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98EAEE0F2ACDBEE70030F1D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,8 +79,18 @@
 			isa = PBXGroup;
 			children = (
 				98EAEE0D2ACDBEE70030F1D1 /* AppDelegate.swift */,
+				9833C6B72AE4C8D30055DA35 /* StoryTableViewCell.swift */,
+				9833C6B82AE4C8D30055DA35 /* StoryTableViewCell.xib */,
+				9833C6BB2AE4CAD40055DA35 /* StoryCollectionViewCell.swift */,
+				9833C6BC2AE4CAD40055DA35 /* StoryCollectionViewCell.xib */,
 				98EAEE0F2ACDBEE70030F1D1 /* SceneDelegate.swift */,
 				98EAEE132ACDBEE70030F1D1 /* Main.storyboard */,
+				9833C6B12AE4AA600055DA35 /* HomeViewController.swift */,
+				9833C6B32AE4BC160055DA35 /* FeedTableViewCell.swift */,
+				9833C6B42AE4BC160055DA35 /* FeedTableViewCell.xib */,
+				98D70F572AE42D1F003C7736 /* Color+Extension.swift */,
+				98D70F532AE42928003C7736 /* UIView+Extension.swift */,
+				98D70F552AE42A6D003C7736 /* UIViewController+Extension.swift */,
 				989D82252ACEB6000037ECDF /* RegisterViewController.swift */,
 				98EAEE212ACDCCF60030F1D1 /* LoginVIewControllerViewController.swift */,
 				98EAEE162ACDBEE80030F1D1 /* Assets.xcassets */,
@@ -129,7 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				98EAEE1A2ACDBEE80030F1D1 /* LaunchScreen.storyboard in Resources */,
+				9833C6B62AE4BC160055DA35 /* FeedTableViewCell.xib in Resources */,
 				98EAEE172ACDBEE80030F1D1 /* Assets.xcassets in Resources */,
+				9833C6BA2AE4C8D30055DA35 /* StoryTableViewCell.xib in Resources */,
+				9833C6BE2AE4CAD40055DA35 /* StoryCollectionViewCell.xib in Resources */,
 				98EAEE152ACDBEE70030F1D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +174,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D70F562AE42A6D003C7736 /* UIViewController+Extension.swift in Sources */,
+				98D70F582AE42D1F003C7736 /* Color+Extension.swift in Sources */,
+				9833C6BD2AE4CAD40055DA35 /* StoryCollectionViewCell.swift in Sources */,
 				98EAEE0E2ACDBEE70030F1D1 /* AppDelegate.swift in Sources */,
+				9833C6B22AE4AA600055DA35 /* HomeViewController.swift in Sources */,
 				98EAEE222ACDCCF60030F1D1 /* LoginVIewControllerViewController.swift in Sources */,
 				98EAEE102ACDBEE70030F1D1 /* SceneDelegate.swift in Sources */,
+				98D70F542AE42928003C7736 /* UIView+Extension.swift in Sources */,
+				9833C6B52AE4BC160055DA35 /* FeedTableViewCell.swift in Sources */,
 				989D82262ACEB6000037ECDF /* RegisterViewController.swift in Sources */,
+				9833C6B92AE4C8D30055DA35 /* StoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

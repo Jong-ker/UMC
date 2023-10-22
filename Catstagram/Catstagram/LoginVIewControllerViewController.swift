@@ -42,7 +42,9 @@ class LoginVIewControllerViewController: UIViewController {
         /// ViewController 생성
         let Registerviewcontroller = storyboard.instantiateViewController(withIdentifier: "RegisterVC")as! RegisterViewController
         /// 메소드를 이용해서 화면전환
-        self.present(Registerviewcontroller, animated: true, completion:nil)
+        //self.present(Registerviewcontroller, animated: true, completion:nil)
+        
+        self.navigationController?.pushViewController(Registerviewcontroller, animated: true)
         
     }
 }
