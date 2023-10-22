@@ -10,11 +10,8 @@ import UIKit
 class FeedTableViewCell: UITableViewCell {
 
     @IBOutlet weak var imageViewPicture: UIImageView!
-    
     @IBOutlet weak var labelName: UILabel!
-    
     @IBOutlet weak var labelPlace: UILabel!
-    
     @IBOutlet weak var labelPrice: UILabel!
     
     override func awakeFromNib() {
